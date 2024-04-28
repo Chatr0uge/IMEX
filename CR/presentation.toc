@@ -1,0 +1,19 @@
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{The Lussac sorting : clustering group of neurons}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Clustering on low dimensinal space}{7}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{Graph Space}{7}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{Clustering Metrics}{8}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{3}{Unsupervised Clustering}{10}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{4}{Supervised Clustering}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Clustering on high dimensional space}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{Various Unsupervised Algorithm}{19}{0}{2}
+\beamer@sectionintoc {3}{Nodes Clustering}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Nodes space}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Different methods}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Clustering on every nodes}{25}{0}{3}
+\beamer@subsectionintoc {3}{4}{Clustering with relative clusters metrics}{28}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{1}{SVM classifier}{29}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{2}{Naive Bayes classifier}{34}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{3}{Quadratic Discriminant Analysis}{37}{0}{3}
+\beamer@subsubsectionintoc {3}{4}{4}{Comparison of the different methods}{40}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{41}{0}{4}

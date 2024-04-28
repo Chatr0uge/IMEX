@@ -1,0 +1,36 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {chapter}{\numberline {2}Lussac sorting: Clustering every group of neurons}{4}{}%
+\contentsline {section}{\numberline {I}Clustering on low dimensional space}{4}{}%
+\contentsline {subsection}{\numberline {1}Graph Space}{4}{}%
+\contentsline {subsection}{\numberline {2}Clustering Metrics}{4}{}%
+\contentsline {subsubsection}{\numberline {a}Similarity}{4}{}%
+\contentsline {subsubsection}{\numberline {b}Correlogram difference}{4}{}%
+\contentsline {subsubsection}{\numberline {c}Template difference}{4}{}%
+\contentsline {subsubsection}{\numberline {d}Asymmetric similarity}{4}{}%
+\contentsline {subsubsection}{\numberline {e}Cross-contamination of neurons}{5}{}%
+\contentsline {subsection}{\numberline {3}Unsupervised Clustering}{5}{}%
+\contentsline {subsection}{\numberline {4}Supervised Clustering}{5}{}%
+\contentsline {subsubsection}{\numberline {a}Support Vector Machine Classifier}{5}{}%
+\contentsline {paragraph}{\numberline {a.1}Principle}{5}{}%
+\contentsline {paragraph}{\numberline {a.2}Application}{6}{}%
+\contentsline {subsection}{\numberline {5}Clustering Efficiency}{7}{}%
+\contentsline {section}{\numberline {II}Clustering on high dimensional space}{7}{}%
+\contentsline {subsection}{\numberline {1}Various unsupervised clustering algorithms}{7}{}%
+\contentsline {subsection}{\numberline {2}Results}{7}{}%
+\contentsline {subsubsection}{\numberline {a}Affinity Propagation Results}{7}{}%
+\contentsline {subsubsection}{\numberline {b}HDBSCAN Results}{8}{}%
+\contentsline {chapter}{\numberline {3}Nodes clustering}{8}{}%
+\contentsline {subsection}{\numberline {1}Node Space}{8}{}%
+\contentsline {subsection}{\numberline {2}Different Methods}{8}{}%
+\contentsline {subsubsection}{\numberline {a}Metrics Overview}{8}{}%
+\contentsline {subsection}{\numberline {3}Clustering on every nodes}{9}{}%
+\contentsline {subsection}{\numberline {4}Clustering with relative metrics}{10}{}%
+\contentsline {subsubsection}{\numberline {a}Support Vector Machine Classifier}{10}{}%
+\contentsline {subsubsection}{\numberline {b}Naive Bayes Classifier}{12}{}%
+\contentsline {paragraph}{\numberline {b.1}Principle}{12}{}%
+\contentsline {paragraph}{\numberline {b.2}Gaussian Naive Bayes}{12}{}%
+\contentsline {subsubsection}{\numberline {c}Quadratic Discriminant Analysis}{13}{}%
+\contentsline {paragraph}{\numberline {c.1}Principle}{13}{}%
+\contentsline {paragraph}{\numberline {c.2}Results Discriminant Analysis}{14}{}%
+\contentsline {subsubsection}{\numberline {d}Comparison}{15}{}%

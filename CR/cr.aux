@@ -1,0 +1,100 @@
+\relax 
+\providecommand{\transparent@use}[1]{}
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\nicematrix@redefine@check@rerun 
+\abx@aux@refcontext{nty/global//global/global}
+\pgfsyspdfmark {pgfid1}{239206}{0}
+\providecommand \oddpage@label [2]{}
+\babel@aux{english}{}
+\abx@aux@cite{0}{Kilosort}
+\abx@aux@segm{0}{0}{Kilosort}
+\abx@aux@cite{0}{Lussac}
+\abx@aux@segm{0}{0}{Lussac}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Neuron anatomy with different components. Neurons are connected each others via axon and dendrites, the neural signal is electrical and is due to the polarization of the neuron membrane.\relax }}{2}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:}{{1.1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Spikesorting analysis Principles of neurons. The local field potential contains multiple neuron signals, the goal of the spilesorting algorithm is to isolate each signal and to attribute each spikes in the local field to a specific neuron. There is many methods to do so. Lussac goal is to deal with multiple of these algorithms to extract the best from each.\relax }}{3}{}\protected@file@percent }
+\newlabel{fig:}{{1.2}{3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Lussac sorting: Clustering every group of neurons}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {I}Clustering on low dimensional space}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Graph Space}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Clustering Metrics}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a}Similarity}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {b}Correlogram difference}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Correlogram difference overview\relax }}{4}{}\protected@file@percent }
+\newlabel{fig:corr}{{2.1}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {c}Template difference}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {d}Asymmetric similarity}{4}{}\protected@file@percent }
+\abx@aux@cite{0}{Contamination}
+\abx@aux@segm{0}{0}{Contamination}
+\abx@aux@cite{0}{kernel}
+\abx@aux@segm{0}{0}{kernel}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {e}Cross-contamination of neurons}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3}Unsupervised Clustering}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces We omit the dependence over the template difference for vizualizations. Big circles are the ground truth label, red one are known good relations between neurons (i.e they are in the same cluster, and blue one are bad ones. The results of the unsupervised clustering is represented by the little blue and red circle, the red one are the good relations, and the blue one are the bad ones. The unsupervised clustering is not able to separate the data in a good way.)\relax }}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4}Supervised Clustering}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a}Support Vector Machine Classifier}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a.1}Principle}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a.2}Application}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Neurons relations distributions for identical clusters, like we said before, the distributions for the correlogram and the template are quite similar, as opposed to the similarity distribution. Hence, the goal is to separate these 3 distribution in an optimal way, this is why we will limit our visualizations to the similarity and the template difference.\relax }}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Decision Function for the given SVM, the correlation dependence is omitted due to its weak impact on the decision boundaries. Here the SVM is able to separate the data in a good way, we reach a score of 0.9997 for the relation's classification, we can see that good relations colored in red are mostly to the right of the boundary and bad (in blue) relations to the left. However this high score must be taken with a grain of salt, indeed there is a lot of bad relations inside the data, and their classification is not really relevant, since this it is quite obvious that they don't belong to the same neuron. The introduction of a relative metrics should solve this issue and will be introduced further.\relax }}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Here we can see the length histogram of the clusters, the length of the clusters is the number of neurons inside this latter. In blue the predicted cluster length and in red the true one. We can see that, these two distributions are quite similar, which is a good sign, one can lays the emphasis on the fact that predicted clusters tend to have smaller size, which is quite relevant since it eliminates the risk of having a large cluster containing multiple neurons, creating really small clusters of bad units.\relax }}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5}Clustering Efficiency}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Clustering on high dimensional space}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Various unsupervised clustering algorithms}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Results}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a}Affinity Propagation Results}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Here we can see the main reasons of the low clustering score. It's mainly due to multiple single clusters, which were normally from medium size clusters, which is not really relevant since we want to ge rid of big clusters.\relax }}{8}{}\protected@file@percent }
+\newlabel{fig:}{{2.6}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {b}HDBSCAN Results}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Nodes clustering}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1}Node Space}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2}Different Methods}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a}Metrics Overview}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Correlation matrix of the different metrics, we can see that the firing rate and the presence ratio are highly correlated, hence we can drop one of them. The sd ratio and the SNR are also highly correlated, we can drop one of them. The synchrony and the contamination are also highly correlated, we can drop one of them.\relax }}{9}{}\protected@file@percent }
+\newlabel{}{{3.1}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Weighting function used for the clustering, the goal is to have a strong impact on the data that are close to the maximum of the cluster, and a weak impact on the data that are far from the maximum of the cluster.\relax }}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3}Clustering on every nodes}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces The data is impossible to separate into 2 clusters : one for good neurons and the other for the bad ones. Hence the SVM is clearly overfitting the data.\relax }}{9}{}\protected@file@percent }
+\newlabel{}{{3.3}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Here the results leads us to the same conclusion as before.\relax }}{10}{}\protected@file@percent }
+\newlabel{}{{3.4}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Here we introduce the distance weighting defined above. In black, the so-called bad neurons, and in red the best neuron (defined by their accuracy over the ground truth neuron) for each cluster. It seems that, thanks to the renormalization, the data can be separated in a good way.\relax }}{10}{}\protected@file@percent }
+\newlabel{}{{3.5}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4}Clustering with relative metrics}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a}Support Vector Machine Classifier}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces On this clustering thanks to the renormalization we got more homogenous separation (solid black line stands for place where the algorithm tends to label points as good neurons and dashed line where the algorithm classifies the neurons as bad), though the clustering method has overfited the data, hence we must try to choose the optimal $\Gamma $ Kernel coefficient in order to have a fixed width of cluster. And to try different penalty parameter to get rid, of the noisy data influence inside the clusters of relevant neurons\relax }}{10}{}\protected@file@percent }
+\newlabel{}{{3.6}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Here it appears that the optimal parameters are high gamma and high C, however, let's note that this leads to high overfitting, hence we should try to find the optimal parameters, considering that a generalization will lead to a relatively smooth separtaion line : Indeed, let's check the shape of the level 0 of the decision function.\relax }}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Here we try to classify the data, using the optimal parameter used for the grid-search, however, it appears, as expected, that the boundary is totally messing. Hence, we must choose small $\Gamma $ as studied before to keep, a relatively smooth boundary. Behind, this required smooth boundaries is the generalization issue, and to have simple rules to know if the neuron is good or not. Even if this much more sophisticated boundaries are probably, encoding more simple boundaries inside. To do so we will fix the $\Gamma $ parameter to an arbitrary low number and play with the penalty parameter in order to maximize the clustering score of the method. \relax }}{11}{}\protected@file@percent }
+\abx@aux@cite{0}{GaussianBayes}
+\abx@aux@segm{0}{0}{GaussianBayes}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Here we choose $\Gamma = 0.03$ and $C = 1$ (i.e. no penalty), we can see that the clustering is more relevant, but we still have some noisy data inside the clusters, that we can get rid of playing with the penalty parameter. However, one can notice that with the base score function, as we discretized the label, we will have some really low score (around 0.4), the need to introduce a new metrics score appears. We propose to use the same weighting as before with a strengthened impact of critically low accuracy, introducing relative accuracy of the cluster into the computation of the score.\relax }}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Score maximization using $\gamma = .003$ of the coefficient parameter of the weighting function and the penalty paramter of the fiting process, However let's denote the following properties of support vector machine, the C parameter determinates how smooth is the speration curve, for high C the model try to classify all the data correctly, but it can lead to overfitting, for low C the model try to find the largest margin possible, but it can lead to underfitting. Hence we should try to find the optimal C parameter, considering that a generalization will lead to a relatively smooth separtaion line :\relax }}{12}{}\protected@file@percent }
+\newlabel{}{{3.10}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {b}Naive Bayes Classifier}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b.1}Principle}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b.2}Gaussian Naive Bayes}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces For the 2D clustering on \textbf  {synchrony} and \textbf  {SNR} we obtained quite good separation line between both clusters of good and bad neurons. This simple separation ilne, has been obtained introducing the same weighting methods used for SVM, except for the class weighting. However for the score evaluation, we implemented this weighting to get rid of the over influence of bad neurons.\relax }}{12}{}\protected@file@percent }
+\newlabel{}{{3.11}{12}}
+\abx@aux@cite{0}{qda}
+\abx@aux@segm{0}{0}{qda}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Here we plot, the separation line of both clusters, in orange good neurons and in blue bad ones. The diagonal shows the distribution of both types of neuron. One can notice, that for some dimensions the clustering is inefficient. However, results are quite intersesting and the multidimensional analysis leads to a global score of 0.87, given the weighting metrics.\relax }}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {c}Quadratic Discriminant Analysis}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c.1}Principle}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c.2}Results Discriminant Analysis}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces The Discriminant analysis leads quite to the same results as for the Bayesian approach (for \textbf  {synchrony} and \textbf  {SNR}), which was intended, however one can show that the boundaries are a little less strict, and can be expanded a little beyond the Bayesian classifier ones. Whereas, the weighting is exactly the same, even for the score function.\relax }}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces  For the multidimensional projections study we got the following results : The separation line between both clusters, is indeed larger with the quadratic determinant analysis than for Bayesian analysis. Note that the results seems also quite relevant, since the global analysis, leads to a score of 0.88.\relax }}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {d}Comparison}{15}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Centroid method for choosing the best neurons in the case there is many.\relax }}{15}{}\protected@file@percent }
+\gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{\m@ne }}
+\abx@aux@read@bbl@mdfivesum{34EF9386D49D705BD23BEC0AFC0CDA8F}
+\abx@aux@defaultrefcontext{0}{kernel}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{qda}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{Kilosort}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{Lussac}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{GaussianBayes}{nty/global//global/global}
+\abx@aux@defaultrefcontext{0}{Contamination}{nty/global//global/global}
+\gdef \@abspage@last{17}

@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'cr.blg'
+[74] biber:340> INFO - === mer. févr.  7, 2024, 11:57:52
+[91] Biber.pm:418> INFO - Reading 'cr.bcf'
+[149] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
+[162] Biber.pm:4383> INFO - Processing section 0
+[173] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[175] bibtex.pm:1713> INFO - LaTeX decoding ...
+[183] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[243] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[243] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[254] bbl.pm:654> INFO - Writing 'cr.bbl' with encoding 'UTF-8'
+[259] bbl.pm:757> INFO - Output to cr.bbl

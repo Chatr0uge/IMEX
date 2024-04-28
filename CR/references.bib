@@ -1,0 +1,52 @@
+% cb2Bib 2.0.1
+@article{Lussac,
+  author       = {Victor Llobet and Aur{\'e}lien Wyngaard and Boris Barbour},
+  title        = {Automatic post-processing and merging of multiple spike-sorting analyses with Lussac},
+  elocation-id = {2022.02.08.479192},
+  year         = {2022},
+  doi          = {10.1101/2022.02.08.479192},
+  publisher    = {Cold Spring Harbor Laboratory},
+  abstract     = {The increasing site counts of multielectrodes used in extracellular recording preclude traditional manual spike-sorting and have led to the development of several new software suites with increased automation. It remains difficult, however, to find parameters enabling optimal processing of signals from all neuronal types simultaneously. Here, we describe a procedure for automatically post-processing and merging the outputs of multiple spike-sorting analyses, enabling the accumulation of results optimised for different activity features. This approach was motivated by and first applied to the analysis of cerebellar activity, in which the complex spikes challenge standard analyses. The core of our modular procedure involves the identification of cluster-fusion candidates and assurance that only fusions that increase a clearly defined cluster-quality metric are performed; important subsidiary steps that have also been automated include spike alignment and duplicate removal. The procedure was validated by recovery of injected spike waveforms. In tests combining analyses from Kilosort and MountainSort, our procedure yielded a 50 \% increase in the detected number of Purkinje cell clusters with both simple and complex spikes. A further validation used the synthetic SpikeForest dataset approximating neocortical activity, in which our package also improved performance. Combining multiple analyses therefore offers a general method for improving spike-sorting, and furthermore Lussac reduces manual input and increases the objectivity of analyses.Competing Interest StatementThe authors have declared no competing interest.},
+  url          = {https://www.biorxiv.org/content/early/2022/02/10/2022.02.08.479192},
+  eprint       = {https://www.biorxiv.org/content/early/2022/02/10/2022.02.08.479192.full.pdf},
+  journal      = {bioRxiv}
+}
+@article{Kilosort,
+  title   = {Solving the spike sorting problem with Kilosort},
+  author  = {JMarius Pachitariu, Shashwat Sridhar, Carsen Stringer},
+  journal = {bioRxiv 2023.01.07.523036;},
+  year    = {2023},
+  doi     = {https://doi.org/10.1101/2023.01.07.523036}
+}
+@article{Contamination,
+  author       = {Jack P. Vincent and Michael N. Economo},
+  title        = {Assessing cross-contamination in spike-sorted electrophysiology data},
+  elocation-id = {2023.12.21.572882},
+  year         = {2023},
+  doi          = {10.1101/2023.12.21.572882},
+  publisher    = {Cold Spring Harbor Laboratory},
+  abstract     = {Recent advances in extracellular electrophysiology now facilitate the recording of spikes from hundreds or thousands of neurons simultaneously. This has necessitated both the development of new computational methods for spike sorting and better methods to determine spike sorting accuracy. One longstanding method of assessing the false discovery rate (FDR) of spike sorting {\textendash} the rate at which spikes are misassigned to the wrong cluster {\textendash} has been the rate of inter-spike-interval (ISI) violations. Despite their near ubiquitous usage in spike sorting, our understanding of how exactly ISI violations relate to FDR, as well as best practices for using ISI violations as a quality metric, remain limited. Here, we describe an analytical solution that can be used to predict FDR from ISI violation rate. We test this model in silico through Monte Carlo simulation, and apply it to publicly available spike-sorted electrophysiology datasets. We find that the relationship between ISI violation rate and FDR is highly nonlinear, with additional dependencies on firing rate, the correlation in activity between neurons, and contaminant neuron count. Predicted median FDRs in public datasets were found to range from 3.1\% to 50.0\%. We find that stochasticity in the occurrence of ISI violations as well as uncertainty in cluster-specific parameters make it difficult to predict FDR for single clusters with high confidence, but that FDR can be estimated accurately across a population of clusters. Our findings will help the growing community of researchers using extracellular electrophysiology assess spike sorting accuracy in a principled manner.SIGNIFICANCE STATEMENT High-density silicon probes are widely used to record the activity of large populations of neurons while animals are engaged in complex behavior. In this approach, each electrode records spikes from many neurons, and {\textquotedblleft}spike sorting{\textquotedblright} algorithms are used to group the spikes originating from each neuron together. This process is error-prone, however, and so the ability to assess spike sorting accuracy is essential for properly interpreting neural activity. The rate of inter-spike-interval (ISI) violations is commonly used to assess spike sorting accuracy, but the relationship between ISI violation rate and sorting accuracy is complex and poorly understood. Here, we describe this relationship in detail and provide guidelines for how to properly use ISI violation rate to assess spike sorting accuracy.Competing Interest StatementThe authors have declared no competing interest.},
+  url          = {https://www.biorxiv.org/content/early/2023/12/23/2023.12.21.572882},
+  eprint       = {https://www.biorxiv.org/content/early/2023/12/23/2023.12.21.572882.full.pdf},
+  journal      = {bioRxiv}
+}
+@article{GaussianBayes,
+  author  = {Tony F. Chan, Gene H. Golub, Randall J. LeVeque},
+  title   = {UPDATING FORMULAE AND A PAIRWISE ALGORITHM FOR COMPUTING SAMPLE VARIANCES},
+  year    = {1979},
+  journal = {DEPARTMENT OF COMPUTER SCIENCE School of Humanities and Sciences a STANFORD UNIVERSITY}
+}
+@book{kernel,
+  title    = {Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond},
+  author   = {Bernhard Scholkopf, Alexander J. Smola},
+  journal  = {A comprehensive introduction to Support Vector Machines and related kernel methods.},
+  year     = {2018},
+  abstract = {In the 1990s, a new type of learning algorithm was developed, based on results from statistical learning theory: the Support Vector Machine (SVM). This gave rise to a new class of theoretically elegant learning machines that use a central concept of SVMs—-kernels—for a number of learning tasks. Kernel machines provide a modular framework that can be adapted to different tasks and domains by the choice of the kernel function and the base algorithm.}
+}
+@book{qda,
+  title  = {The Elements of Statistical Learning},
+  author = {Hastie T., Tibshirani R., Friedman J.},
+  year   = {2008}
+}
+
+
